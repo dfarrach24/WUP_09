@@ -124,4 +124,4 @@ In the roach model the Adjusted R-squared is  0.821.The best two variables are w
 ## Final Summary Statements
 
 
-In predicting fish weight we tested three variables, 
+In predicting fish weight we tested three variables, Perch, Pike and Roach. The adjusted R-square for Perch is 0.9372, The adjusted R-square for Pike is 0.9794, and the adjusted R-square for Roach is 0.821. The Pike fish gives the best results in predicting the fish weight based on the variables given in the best two regressor model since it had the biggest adjusted R-square of 0.9794 making it the best fit.
