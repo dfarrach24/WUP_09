@@ -37,7 +37,6 @@ summary.lm(weightPerch)
 
 ### Best Models
 
-The best two variables are height and weight.  
 
 
 ### Best Two regressor model
@@ -56,8 +55,7 @@ summary.out <- summary(regsubsets.out)
 as.data.frame(summary.out$outmat)
 ```
 
-The Adjusted R-squared for Perch is 0.9372. The only variables that make a difference in this case is the p-value. So the only significant coefficient that determines the fish weight is the height where the p-value is 0.0333 less than 0.05
-
+The Adjusted R-squared for Perch is 0.9372. The best two variables are height and weight.  
 
 
 ## Pike
@@ -72,7 +70,7 @@ summary.lm(weightPike)
 
 ### Best Models
 
-The best two variables are length1 and Length3 .  
+
 
 
 ### Best Two regressor model
@@ -90,6 +88,8 @@ summary.out <- summary(regsubsets.out)
 as.data.frame(summary.out$outmat)
 ```
 
+In the Pike model the Adjusted R-squared:  0.9794. The best two variables are length1 and Length3 .  
+
 ## Roach
 
 ```{r}
@@ -103,7 +103,7 @@ summary.lm(weightRoach)
 ### Best Models
 
 
-The best two variables are width and Length3  
+
 
 
 ### Best Two regressor model
@@ -119,6 +119,7 @@ regsubsets.out <-
 summary.out <- summary(regsubsets.out)
 as.data.frame(summary.out$outmat)
 ```
+In the roach model the Adjusted R-squared is  0.821.The best two variables are width and Length3    
 
 ## Final Summary Statements
 
